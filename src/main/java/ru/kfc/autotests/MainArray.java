@@ -9,7 +9,8 @@ public class MainArray {
         int[] array2 = new int[5]; // создали массив под 5 элементов
 
         int x = array[0] + array[2]; // x = 4
-// теперь массив array содержит элементы 1, 5 и 3
+
+        // теперь массив array содержит элементы 1, 5 и 3
         array[1] = 5;
         System.out.println(Arrays.toString(array));
 
@@ -30,6 +31,7 @@ public class MainArray {
 
         int multiArray[][] = {{0, 1}, {3, 4}};
 
+        //Многомерный массив
         String[][] names = {
                 {"Mr. ", "Mrs. ", "Ms. "},
                 {"Smith", "Jones", "Potter"},
